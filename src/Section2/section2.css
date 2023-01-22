@@ -1,0 +1,67 @@
+.QandA{
+    margin-top: 60px;
+}
+.Faqwrapper {
+   display: flex;
+   justify-content: center;
+   
+}
+
+.FAQ {
+    margin-right: 110px;
+    margin-left: 110px;
+}
+.Faqtitle{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.Faqitem {
+    background-color: rgb(62, 60, 60);
+    color: white;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.itemtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Faqicon{
+    font-size: 25px;
+}
+.itemanswer{
+  
+    background: rgb(40, 35, 35);
+    color: white;
+    font-size: 16px;
+    max-height: 0;
+    overflow: hidden;
+    
+}
+.itemanswer.show{
+    height: auto;
+    color: white;
+    max-height: 999px;
+    background: rgb(0, 0, 0);
+    
+}
+.section2content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .section2contentdisc2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    width: 500px;
+  }

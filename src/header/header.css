@@ -1,0 +1,181 @@
+
+h1{
+    color: #fff;
+  }
+  
+  .show{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    background: url('./netflixbackground.jpg') no-repeat center center/cover;
+  }
+  
+  .show::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.75);
+    
+  }
+  .showtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .showtop img{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50px;
+  
+  }
+  .btns{
+    display: flex;
+  }
+  .language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 90px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+  }
+  .btn1{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+  }
+  .icon{
+    margin-left: 5px;
+  }
+  
+  .btn{
+    margin-top: 15px;
+    margin-right: 50px;
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+  
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
+  .showcontent{
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+  }
+  .showcontenttitle{
+    color: #fff;
+    font-weight: 600;
+    font-size: 4rem;
+    max-width: 700px;
+  }
+  .showcontentdisc{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.9rem;
+    margin-top: 20px;
+  }
+  .showcontentdisc2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  
+  .email{
+    width:550px;
+    height: 65px;
+    padding: 20px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .showcontentbtn{
+    width: 200px;
+    height: 65px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-right: 0;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  @media(max-width:800px){
+    .show::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(0,0,0,0.75);
+  
+      }
+    .showcontenttitle{
+        color: #fff;
+        font-weight: 600;
+        font-size: 3.2rem;
+        max-width: 600px;
+    }
+    .showcontentdisc2{
+        max-width: 500px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+   
+    .inputs{
+        max-width: 550px;
+    }
+    .email{
+        max-width:600px;
+        height: 60px;
+        padding: 20px;
+        border-radius: 2px;
+        border: none;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .showcontentbtn{
+        width: 120px;
+        height: 35px;
+        background-color: red;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-right: 0;
+        border: none;
+        border-radius: 2px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+  }
+  

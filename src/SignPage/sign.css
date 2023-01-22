@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.signpage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url('./netflixbackground.jpg');
+}
+.signpage::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.75);
+}
+.signpage{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 450px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.6);
+    height: 70%;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+}
+.signtitle{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    
+   
+}
+.signdemail{
+    width: 300px;
+    height: 50px;
+    padding-left: 5px;
+    margin-top: 25px;
+    border-radius: 3px;
+   
+}
+.signpass{
+    width: 300px;
+    height: 50px;
+    padding-left: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+   
+}
+.signbtn{
+    width: 300px;
+    height: 50px;
+
+    margin-top: 40px;
+    background-color: red;
+    color: white;
+    position: relative;
+    
+}
+.signdisc{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 300px;
+}
+.discription{
+    display: flex;
+    flex-direction: column;
+}
+.discriptiontitle{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.link1{
+    color: white;
+}
+.discriptioncontent{
+    margin-top: 10px;
+    margin-left: 70px;
+    max-width: 300px;
+    font-size: 12px;
+}
+.link2{
+    color: rgb(48, 48, 224);
+}

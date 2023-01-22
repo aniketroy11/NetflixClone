@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+}
+.footertitel {
+    text-align: center;
+    color: rgb(117, 115, 115);
+    margin-bottom: 30px;
+}
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+a{
+    color: rgb(117, 115, 115);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.language{
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+.footerlast{
+    font-size: 12px;
+    margin-left: 80px;
+}
